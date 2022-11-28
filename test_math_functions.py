@@ -11,8 +11,14 @@ def test_calc_multiply():
     assert output == 8
 def test_calc_multiply_fail():
     output = multiply_numbers(2,4)
-    assert output == 8
+    #assert output == 16
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+def test_mod_numbers():
+    output = mod_numbers(2, 10)
+    assert output == 2
+def test_pow_numbers():
+    output = pow_numbers(2,2)
+    assert output == 4
 
